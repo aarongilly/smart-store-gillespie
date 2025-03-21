@@ -1,2 +1,43 @@
 # smart-store-gillespie
-NW Missouri University CSIS 44-632 - BI &amp; Analytics Module 1
+
+- author: Aaron Gillespie  
+- date: 2025-03-20
+- purpose: NW Missouri University CSIS 44-632 - BI & Analytics Module 1
+
+# Setup
+
+## Clone this repo to your machine
+
+In a new VS Code window, click clone git repository:  
+
+![alt text](assets/vsc_img.png)
+
+Then paste the clone URL:  
+
+`https://github.com/aarongilly/smart-store-gillespie.git`
+
+## Initialize the virtual environment
+
+The following commands establish a virtual python environment, activate it, and install the required packages from `requirements.txt`. This has become boilerplate to every project setup.
+
+```shell
+python3 -m venv .venv  
+source .venv/bin/activate
+python3 -m pip install --upgrade pip  
+python3 -m pip install --upgrade -r requirements.txt
+```
+
+They can be executed one after the other, or all at once (where they'll be run in series anyway).
+
+## Execute Setup Script
+
+1. Activate the built-in VS Code terminal with shortcut key:  
+    
+    `ctrl + ~`
+
+2. Verify the terminal utilzes the virtual environment (should say `.venv` somewhere).
+3. Run the data prep script with the appropriate command:
+
+    `python3 scripts/data_prep.py` <- Mac / Linux   
+        -or-  
+    `py scripts\data_prep.py` <- Windows PowerShell
