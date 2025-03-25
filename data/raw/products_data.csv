@@ -6,4 +6,4 @@ ProductID,ProductName,Category,UnitPrice,Supplier,RemainingInventory
 105,football,Sports,19.78,Balding,5215
 106,controller,Electronics,88.98,Song,7584
 107,jacket,Clothing,67.02,Carhurt,96845
-108,protector,Electronics,12.56,Jims Special Protector Company,0
+108,protector,Electronics,12.56,Jims Special Protector Company
