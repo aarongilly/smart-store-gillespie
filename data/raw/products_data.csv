@@ -1,9 +1,9 @@
-ProductID,ProductName,Category,UnitPrice
-101,laptop,Electronics,793.12
-102,hoodie,Clothing,39.1
-103,cable,Electronics,22.76
-104,hat,Clothing,43.1
-105,football,Sports,19.78
-106,controller,Electronics,88.98
-107,jacket,Clothing,67.02
-108,protector,Electronics,12.56
+ProductID,ProductName,Category,UnitPrice,Supplier,RemainingInventory
+101,laptop,Electronics,793.12,Dull,24
+102,hoodie,Clothing,39.1,Bike,56631
+103,cable,Electronics,22.76,Munster,291889
+104,hat,Clothing,43.1,Ladz,334
+105,football,Sports,19.78,Balding,5215
+106,controller,Electronics,88.98,Song,7584
+107,jacket,Clothing,67.02,Carhurt,96845
+108,protector,Electronics,12.56,Jims Special Protector Company,0
