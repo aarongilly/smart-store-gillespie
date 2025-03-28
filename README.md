@@ -41,3 +41,11 @@ They can be executed one after the other, or all at once (where they'll be run i
     `python3 scripts/data_prep.py` <- Mac / Linux   
         -or-  
     `py scripts\data_prep.py` <- Windows PowerShell
+
+## Testing
+
+This project serves as our introduction to unit testing in Python. The `tests/` folder contains the following tests scripts.
+
+### tests/test_data_scrubber.py
+
+This test script consists of 13 checks which run against an internally-created temporary dataset. The dataset is created with known data quality issues. The `DataScrubber.py` script is invoked on the temporary dataset, creating a scrubbed DataFrame with a known expected output. The tester then flags any deviations between generated output and expected output.
