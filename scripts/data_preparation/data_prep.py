@@ -35,6 +35,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
 # Now we can import local modules
+from scripts.data_preparation import prepare_generic_data
 from utils.logger import logger 
 
 # Constants
@@ -59,7 +60,6 @@ def main() -> None:
     logger.info("STARTING data_prep.py")
     logger.info("======================")
 
-
     logger.info("========================")
     logger.info("Starting CUSTOMERS prep")
     logger.info("========================")
@@ -74,6 +74,21 @@ def main() -> None:
     logger.info("Starting SALES prep")
     logger.info("========================")
     prepare_sales_data.main()
+
+    logger.info("========================")
+    logger.info("Starting STORES prep")
+    logger.info("========================")
+    prepare_generic_data.main('stores_data')
+
+    logger.info("========================")
+    logger.info("Starting CAMPAIGNS prep")
+    logger.info("========================")
+    prepare_generic_data.main('campaigns_data')
+
+    logger.info("========================")
+    logger.info("Starting SUPPLIERS prep")
+    logger.info("========================")
+    prepare_generic_data.main('suppliers_data')
 
     logger.info("======================")
     logger.info("FINISHED data_prep.py")

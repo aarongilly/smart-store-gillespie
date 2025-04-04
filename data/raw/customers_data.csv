@@ -1,12 +1,12 @@
-CustomerID,Name,Region,JoinDate,ReferringCustomer,BirthYear
-1001,William White,East,11/11/21,Jack Whitespace   ,1968
-1002,Wylie Coyote,East,2/14/23,Road Runner,1949
-1003,Dan Brown,West,10/19/23,Professor Langdon,1964
-1004,Chewbacca,West,11/9/22,Han,1977
-1005,Dr Who,North,8/18/23,THE BORG,999999
-1006,Tiffany James,South,6/7/21,Dunno this one,1856
-1007,Susan Johnson,South,6/30/23,Whoopi Goldberg,1927
-1008,Tony Stark,North,5/1/20,Bruce Banner,1963
-1009,Jason Bourne,West,12/1/20,Treadstone,2002
-1010,Hermione Granger,East,12/9/22,Harry Potter,1997
-1011,Hermione Grager,East,12/9/22,Harold Potter,1997
+CustomerID,Name,Region,JoinDate,ReferringCustomer,Birthday
+1001,William White,East,11/11/21,1004,2002-04-22
+1002,Wylie Coyote,East,2/14/23,,1949-05-01
+1003,Dan Brown,West,10/19/23,,1964-06-22
+1004,Chewbacca,West,11/9/22,1007,1977-05-25
+1005,Dr Who,North,8/18/23,,9999-01-01
+1006,Tiffany James,South,6/7/21,,1856-03-13
+1007,Susan Johnson,South,6/30/23,,1927-11-13
+1008,Tony Stark,North,5/1/20,,1963-12-18
+1009,Jason Bourne,West,12/1/20,1010,2002-08-04
+1010,Hermione Granger,East,12/9/22,,1997-09-19
+1011,Hermione Grager,East,12/9/22,,1997-09-19

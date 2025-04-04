@@ -2,7 +2,7 @@
 
 - author: Aaron Gillespie  
 - date: 2025-03-20
-- purpose: NW Missouri University CSIS 44-632 - BI & Analytics Module 1
+- purpose: NW Missouri University CSIS 44-632 - BI & Analytics
 
 # Setup
 
@@ -49,3 +49,33 @@ This project serves as our introduction to unit testing in Python. The `tests/` 
 ### tests/test_data_scrubber.py
 
 This test script consists of 13 checks which run against an internally-created temporary dataset. The dataset is created with known data quality issues. The `DataScrubber.py` script is invoked on the temporary dataset, creating a scrubbed DataFrame with a known expected output. The tester then flags any deviations between generated output and expected output.
+
+## Database Documentation
+
+The database in this project is designed to log _transactions_ and the necessary dimensions to add meaning to them. The table uses a snowflake schema, although it's small enough to nearly be star schmea.
+
+![alt text](assets/schema.png)
+
+The schema is as follows:
+
+![alt text](assets/SCHEMA_TABLE.png)
+
+The following sections display the first few rows & columns of each table.
+
+### SALES
+![alt text](assets/SALES.png)
+
+### CUSTOMERS
+![alt text](assets/CUSTOMERS.png)
+
+### STORES
+![alt text](assets/STORES.png)
+
+### CAMPAIGNS
+![alt text](assets/CAMPAIGNS.png)
+
+### PRODUCTS
+![alt text](assets/PRODUCTS.png)
+
+### SUPPLIERS
+![alt text](assets/SUPPLIERS.png)

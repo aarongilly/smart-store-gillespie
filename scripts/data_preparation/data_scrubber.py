@@ -14,6 +14,7 @@ See the associated test script in the tests folder.
 
 """
 
+import datetime
 import io
 import pandas as pd
 from typing import Dict, Tuple, Union, List
@@ -105,6 +106,45 @@ class DataScrubber:
                 raise ValueError(f"Column name '{column}' not found in the DataFrame.")
         self.df = self.df.drop(columns=columns)
         return self.df
+    
+    def filter_date_column_outliers(self, column: str, lower_bound: str, upper_bound: str, future_threshold_years: int = 1) -> pd.DataFrame:
+        """
+        Filter outliers in a date column based on lower and upper ISO-8601 bounds.
+
+        Parameters:
+            column (str): Name of the date column to filter for outliers.
+            lower_bound (str): Lower ISO-8601 date threshold for outlier filtering.
+            upper_bound (str): Upper ISO-8601 date threshold for outlier filtering.
+            future_threshold_years (int): Years into the future beyond which dates are considered outliers.
+
+        Returns:
+            pd.DataFrame: Updated DataFrame with outliers filtered out.
+
+        Raises:
+            ValueError: If the specified column not found in the DataFrame or
+                        if date format conversion fails.
+        """
+        try:
+            lower_date = datetime.datetime.fromisoformat(lower_bound)
+            upper_date = datetime.datetime.fromisoformat(upper_bound)
+            future_threshold = datetime.datetime.now() + datetime.timedelta(days=365 * future_threshold_years)
+
+            def safe_convert(date_str):
+                try:
+                    dt = datetime.datetime.fromisoformat(date_str)
+                    return dt if dt <= future_threshold else None #Return none if it's too far in the future
+                except ValueError:
+                    return None # Return none if the format is invalid.
+
+            self.df[column] = self.df[column].apply(safe_convert)
+            self.df = self.df.dropna(subset=[column]) #Drop the none values from conversion failure, or too far in the future dates.
+
+            self.df = self.df[(self.df[column] >= lower_date) & (self.df[column] <= upper_date)]
+            return self.df
+        except KeyError:
+            raise ValueError(f"Column name '{column}' not found in the DataFrame.")
+        except ValueError as e:
+            raise ValueError(f"Invalid date format or column conversion error: {e}")
 
     def filter_column_outliers(self, column: str, lower_bound: Union[float, int], upper_bound: Union[float, int]) -> pd.DataFrame:
         """
@@ -244,7 +284,7 @@ class DataScrubber:
             ValueError: If the specified column not found in the DataFrame.
         """
         try:
-            self.df['StandardDateTime'] = pd.to_datetime(self.df[column])
+            self.df['Standard' + column] = pd.to_datetime(self.df[column])
             return self.df
         except KeyError:
             raise ValueError(f"Column name '{column}' not found in the DataFrame.")

@@ -25,18 +25,17 @@ def main() -> None:
     scrubber_customers = DataScrubber(df_customers)
     scrubber_customers.check_data_consistency_before_cleaning()
     scrubber_customers.inspect_data()
-    
+
     df_customers = scrubber_customers.handle_missing_data(fill_value="N/A")
     df_customers = scrubber_customers.parse_dates_to_add_standard_datetime('JoinDate')
+    
     # ADDED CHECKS
 
-    # Remove customers with birth year outside of a reasonable range
-    df_customers = scrubber_customers.filter_column_outliers('BirthYear', 1900, 2025)
-
-    # Trim whitespace from 'ReferringCustomer' column using new method of DataScrubber
-    df_customers = scrubber_customers.format_column_strings_only_trim('ReferringCustomer')
+    # Remove customers with birthday outside of a reasonable range
+    df_customers = scrubber_customers.filter_date_column_outliers('Birthday', '1900-01-01', '2025-12-31')
 
     # END ADDED CHECKS
+    
     scrubber_customers.check_data_consistency_after_cleaning()
 
     dp.save_prepared_data(df_customers, "customers_data_prepared.csv")

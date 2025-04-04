@@ -216,3 +216,328 @@
 2025-03-28 16:51:01.548 | INFO     | __main__:main:78 - ======================
 2025-03-28 16:51:01.548 | INFO     | __main__:main:79 - FINISHED data_prep.py
 2025-03-28 16:51:01.548 | INFO     | __main__:main:80 - ======================
+2025-04-04 10:46:36.094 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 10:46:36.112 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:03:56.026 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:03:56.045 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:06:51.752 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:06:51.769 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:07:01.842 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:07:01.853 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:07:41.334 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:07:41.334 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:07:41.334 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:07:41.334 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:07:41.334 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:07:41.334 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:07:41.334 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:08:07.111 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:08:07.111 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:08:07.111 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:08:07.111 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:08:07.111 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:08:07.111 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:08:07.111 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:13:00.346 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:13:00.347 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:13:00.347 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:13:00.347 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:13:00.347 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:13:00.347 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:13:00.347 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:14:46.218 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:14:46.218 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:14:46.218 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:14:46.219 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:14:46.219 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:14:46.219 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:14:46.219 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:16:04.165 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:16:04.165 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:16:04.165 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:16:04.165 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:16:04.165 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:16:04.165 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:16:04.165 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:16:04.180 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:16:04.180 | INFO     | __main__:main:68 - ========================
+2025-04-04 11:16:04.180 | INFO     | __main__:main:69 - Starting PRODUCTS prep
+2025-04-04 11:16:04.180 | INFO     | __main__:main:70 - ========================
+2025-04-04 11:16:04.184 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:16:04.184 | INFO     | __main__:main:73 - ========================
+2025-04-04 11:16:04.184 | INFO     | __main__:main:74 - Starting SALES prep
+2025-04-04 11:16:04.184 | INFO     | __main__:main:75 - ========================
+2025-04-04 11:16:04.191 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:16:04.191 | INFO     | __main__:main:78 - ======================
+2025-04-04 11:16:04.191 | INFO     | __main__:main:79 - FINISHED data_prep.py
+2025-04-04 11:16:04.191 | INFO     | __main__:main:80 - ======================
+2025-04-04 11:19:30.058 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:19:30.058 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:19:30.058 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:19:30.058 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:19:30.058 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:19:30.058 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:19:30.059 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:19:30.072 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:19:30.072 | INFO     | __main__:main:68 - ========================
+2025-04-04 11:19:30.072 | INFO     | __main__:main:69 - Starting PRODUCTS prep
+2025-04-04 11:19:30.072 | INFO     | __main__:main:70 - ========================
+2025-04-04 11:19:30.077 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:19:30.077 | INFO     | __main__:main:73 - ========================
+2025-04-04 11:19:30.077 | INFO     | __main__:main:74 - Starting SALES prep
+2025-04-04 11:19:30.077 | INFO     | __main__:main:75 - ========================
+2025-04-04 11:19:30.084 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:19:30.084 | INFO     | __main__:main:78 - ======================
+2025-04-04 11:19:30.084 | INFO     | __main__:main:79 - FINISHED data_prep.py
+2025-04-04 11:19:30.084 | INFO     | __main__:main:80 - ======================
+2025-04-04 11:21:21.574 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:21:21.574 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:21:21.574 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:21:21.574 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:21:21.574 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:21:21.574 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:21:21.574 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:21:21.587 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:21:21.587 | INFO     | __main__:main:68 - ========================
+2025-04-04 11:21:21.587 | INFO     | __main__:main:69 - Starting PRODUCTS prep
+2025-04-04 11:21:21.587 | INFO     | __main__:main:70 - ========================
+2025-04-04 11:21:21.591 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:21:21.591 | INFO     | __main__:main:73 - ========================
+2025-04-04 11:21:21.591 | INFO     | __main__:main:74 - Starting SALES prep
+2025-04-04 11:21:21.591 | INFO     | __main__:main:75 - ========================
+2025-04-04 11:21:21.599 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:21:21.599 | INFO     | __main__:main:78 - ======================
+2025-04-04 11:21:21.599 | INFO     | __main__:main:79 - FINISHED data_prep.py
+2025-04-04 11:21:21.599 | INFO     | __main__:main:80 - ======================
+2025-04-04 11:28:09.737 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:28:09.738 | INFO     | __main__:main:58 - ======================
+2025-04-04 11:28:09.738 | INFO     | __main__:main:59 - STARTING data_prep.py
+2025-04-04 11:28:09.738 | INFO     | __main__:main:60 - ======================
+2025-04-04 11:28:09.738 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:28:09.738 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:28:09.738 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:32:38.561 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:35:33.599 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:36:15.880 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:36:33.920 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:36:33.928 | INFO     | data_prep:save_prepared_data:54 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:51:41.446 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:51:41.446 | INFO     | __main__:main:59 - ======================
+2025-04-04 11:51:41.446 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 11:51:41.446 | INFO     | __main__:main:61 - ======================
+2025-04-04 11:51:41.446 | INFO     | __main__:main:64 - ========================
+2025-04-04 11:51:41.446 | INFO     | __main__:main:65 - Starting CUSTOMERS prep
+2025-04-04 11:51:41.446 | INFO     | __main__:main:66 - ========================
+2025-04-04 11:51:41.461 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:51:41.461 | INFO     | __main__:main:69 - ========================
+2025-04-04 11:51:41.461 | INFO     | __main__:main:70 - Starting PRODUCTS prep
+2025-04-04 11:51:41.461 | INFO     | __main__:main:71 - ========================
+2025-04-04 11:51:41.465 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:51:41.465 | INFO     | __main__:main:74 - ========================
+2025-04-04 11:51:41.465 | INFO     | __main__:main:75 - Starting SALES prep
+2025-04-04 11:51:41.465 | INFO     | __main__:main:76 - ========================
+2025-04-04 11:51:41.472 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:51:41.472 | INFO     | __main__:main:79 - ========================
+2025-04-04 11:51:41.472 | INFO     | __main__:main:80 - Starting GENERIC prep
+2025-04-04 11:51:41.472 | INFO     | __main__:main:81 - ========================
+2025-04-04 11:52:11.252 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:52:11.252 | INFO     | __main__:main:59 - ======================
+2025-04-04 11:52:11.252 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 11:52:11.252 | INFO     | __main__:main:61 - ======================
+2025-04-04 11:52:11.252 | INFO     | __main__:main:64 - ========================
+2025-04-04 11:52:11.252 | INFO     | __main__:main:65 - Starting CUSTOMERS prep
+2025-04-04 11:52:11.252 | INFO     | __main__:main:66 - ========================
+2025-04-04 11:52:11.271 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:52:11.271 | INFO     | __main__:main:69 - ========================
+2025-04-04 11:52:11.271 | INFO     | __main__:main:70 - Starting PRODUCTS prep
+2025-04-04 11:52:11.271 | INFO     | __main__:main:71 - ========================
+2025-04-04 11:52:11.275 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:52:11.275 | INFO     | __main__:main:74 - ========================
+2025-04-04 11:52:11.275 | INFO     | __main__:main:75 - Starting SALES prep
+2025-04-04 11:52:11.275 | INFO     | __main__:main:76 - ========================
+2025-04-04 11:52:11.283 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:52:11.283 | INFO     | __main__:main:79 - ========================
+2025-04-04 11:52:11.283 | INFO     | __main__:main:80 - Starting GENERIC prep
+2025-04-04 11:52:11.283 | INFO     | __main__:main:81 - ========================
+2025-04-04 11:52:11.285 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/stores_data_prepared.csv
+2025-04-04 11:52:11.285 | INFO     | __main__:main:84 - ======================
+2025-04-04 11:52:11.285 | INFO     | __main__:main:85 - FINISHED data_prep.py
+2025-04-04 11:52:11.285 | INFO     | __main__:main:86 - ======================
+2025-04-04 11:53:11.106 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:53:11.106 | INFO     | __main__:main:59 - ======================
+2025-04-04 11:53:11.106 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 11:53:11.106 | INFO     | __main__:main:61 - ======================
+2025-04-04 11:53:11.106 | INFO     | __main__:main:64 - ========================
+2025-04-04 11:53:11.106 | INFO     | __main__:main:65 - Starting CUSTOMERS prep
+2025-04-04 11:53:11.106 | INFO     | __main__:main:66 - ========================
+2025-04-04 11:53:11.114 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:53:11.114 | INFO     | __main__:main:69 - ========================
+2025-04-04 11:53:11.114 | INFO     | __main__:main:70 - Starting PRODUCTS prep
+2025-04-04 11:53:11.114 | INFO     | __main__:main:71 - ========================
+2025-04-04 11:53:11.118 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:53:11.118 | INFO     | __main__:main:74 - ========================
+2025-04-04 11:53:11.118 | INFO     | __main__:main:75 - Starting SALES prep
+2025-04-04 11:53:11.118 | INFO     | __main__:main:76 - ========================
+2025-04-04 11:53:11.125 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:53:11.125 | INFO     | __main__:main:79 - ========================
+2025-04-04 11:53:11.125 | INFO     | __main__:main:80 - Starting STORES prep
+2025-04-04 11:53:11.125 | INFO     | __main__:main:81 - ========================
+2025-04-04 11:53:11.129 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/stores_data_prepared.csv
+2025-04-04 11:53:11.129 | INFO     | __main__:main:84 - ========================
+2025-04-04 11:53:11.129 | INFO     | __main__:main:85 - Starting CAMPAIGNS prep
+2025-04-04 11:53:11.129 | INFO     | __main__:main:86 - ========================
+2025-04-04 11:53:11.131 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/campaign_data_prepared.csv
+2025-04-04 11:53:11.131 | INFO     | __main__:main:89 - ========================
+2025-04-04 11:53:11.131 | INFO     | __main__:main:90 - Starting SUPPLIERS prep
+2025-04-04 11:53:11.131 | INFO     | __main__:main:91 - ========================
+2025-04-04 11:53:21.110 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:53:21.110 | INFO     | __main__:main:59 - ======================
+2025-04-04 11:53:21.110 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 11:53:21.110 | INFO     | __main__:main:61 - ======================
+2025-04-04 11:53:21.110 | INFO     | __main__:main:64 - ========================
+2025-04-04 11:53:21.110 | INFO     | __main__:main:65 - Starting CUSTOMERS prep
+2025-04-04 11:53:21.110 | INFO     | __main__:main:66 - ========================
+2025-04-04 11:53:21.119 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:53:21.119 | INFO     | __main__:main:69 - ========================
+2025-04-04 11:53:21.119 | INFO     | __main__:main:70 - Starting PRODUCTS prep
+2025-04-04 11:53:21.119 | INFO     | __main__:main:71 - ========================
+2025-04-04 11:53:21.123 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:53:21.123 | INFO     | __main__:main:74 - ========================
+2025-04-04 11:53:21.123 | INFO     | __main__:main:75 - Starting SALES prep
+2025-04-04 11:53:21.123 | INFO     | __main__:main:76 - ========================
+2025-04-04 11:53:21.130 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:53:21.130 | INFO     | __main__:main:79 - ========================
+2025-04-04 11:53:21.130 | INFO     | __main__:main:80 - Starting STORES prep
+2025-04-04 11:53:21.130 | INFO     | __main__:main:81 - ========================
+2025-04-04 11:53:21.133 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/stores_data_prepared.csv
+2025-04-04 11:53:21.133 | INFO     | __main__:main:84 - ========================
+2025-04-04 11:53:21.133 | INFO     | __main__:main:85 - Starting CAMPAIGNS prep
+2025-04-04 11:53:21.133 | INFO     | __main__:main:86 - ========================
+2025-04-04 11:53:21.135 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/campaign_data_prepared.csv
+2025-04-04 11:53:21.135 | INFO     | __main__:main:89 - ========================
+2025-04-04 11:53:21.135 | INFO     | __main__:main:90 - Starting SUPPLIERS prep
+2025-04-04 11:53:21.135 | INFO     | __main__:main:91 - ========================
+2025-04-04 11:53:29.246 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:53:29.246 | INFO     | __main__:main:59 - ======================
+2025-04-04 11:53:29.246 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 11:53:29.246 | INFO     | __main__:main:61 - ======================
+2025-04-04 11:53:29.246 | INFO     | __main__:main:64 - ========================
+2025-04-04 11:53:29.246 | INFO     | __main__:main:65 - Starting CUSTOMERS prep
+2025-04-04 11:53:29.246 | INFO     | __main__:main:66 - ========================
+2025-04-04 11:53:29.254 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:53:29.254 | INFO     | __main__:main:69 - ========================
+2025-04-04 11:53:29.254 | INFO     | __main__:main:70 - Starting PRODUCTS prep
+2025-04-04 11:53:29.254 | INFO     | __main__:main:71 - ========================
+2025-04-04 11:53:29.257 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:53:29.257 | INFO     | __main__:main:74 - ========================
+2025-04-04 11:53:29.257 | INFO     | __main__:main:75 - Starting SALES prep
+2025-04-04 11:53:29.257 | INFO     | __main__:main:76 - ========================
+2025-04-04 11:53:29.265 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:53:29.265 | INFO     | __main__:main:79 - ========================
+2025-04-04 11:53:29.265 | INFO     | __main__:main:80 - Starting STORES prep
+2025-04-04 11:53:29.265 | INFO     | __main__:main:81 - ========================
+2025-04-04 11:53:29.268 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/stores_data_prepared.csv
+2025-04-04 11:53:29.268 | INFO     | __main__:main:84 - ========================
+2025-04-04 11:53:29.268 | INFO     | __main__:main:85 - Starting CAMPAIGNS prep
+2025-04-04 11:53:29.268 | INFO     | __main__:main:86 - ========================
+2025-04-04 11:53:29.270 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/campaign_data_prepared.csv
+2025-04-04 11:53:29.270 | INFO     | __main__:main:89 - ========================
+2025-04-04 11:53:29.270 | INFO     | __main__:main:90 - Starting SUPPLIERS prep
+2025-04-04 11:53:29.270 | INFO     | __main__:main:91 - ========================
+2025-04-04 11:53:29.272 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/suppliers_data_prepared.csv
+2025-04-04 11:53:29.272 | INFO     | __main__:main:94 - ======================
+2025-04-04 11:53:29.272 | INFO     | __main__:main:95 - FINISHED data_prep.py
+2025-04-04 11:53:29.272 | INFO     | __main__:main:96 - ======================
+2025-04-04 11:57:56.637 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 11:57:56.638 | INFO     | __main__:main:59 - ======================
+2025-04-04 11:57:56.638 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 11:57:56.638 | INFO     | __main__:main:61 - ======================
+2025-04-04 11:57:56.638 | INFO     | __main__:main:63 - ========================
+2025-04-04 11:57:56.638 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 11:57:56.638 | INFO     | __main__:main:65 - ========================
+2025-04-04 11:57:56.659 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 11:57:56.659 | INFO     | __main__:main:68 - ========================
+2025-04-04 11:57:56.659 | INFO     | __main__:main:69 - Starting PRODUCTS prep
+2025-04-04 11:57:56.659 | INFO     | __main__:main:70 - ========================
+2025-04-04 11:57:56.663 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 11:57:56.663 | INFO     | __main__:main:73 - ========================
+2025-04-04 11:57:56.663 | INFO     | __main__:main:74 - Starting SALES prep
+2025-04-04 11:57:56.663 | INFO     | __main__:main:75 - ========================
+2025-04-04 11:57:56.671 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 11:57:56.671 | INFO     | __main__:main:78 - ========================
+2025-04-04 11:57:56.671 | INFO     | __main__:main:79 - Starting STORES prep
+2025-04-04 11:57:56.671 | INFO     | __main__:main:80 - ========================
+2025-04-04 11:57:56.673 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/stores_data_prepared.csv
+2025-04-04 11:57:56.673 | INFO     | __main__:main:83 - ========================
+2025-04-04 11:57:56.673 | INFO     | __main__:main:84 - Starting CAMPAIGNS prep
+2025-04-04 11:57:56.673 | INFO     | __main__:main:85 - ========================
+2025-04-04 11:57:56.675 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/campaigns_data_prepared.csv
+2025-04-04 11:57:56.675 | INFO     | __main__:main:88 - ========================
+2025-04-04 11:57:56.675 | INFO     | __main__:main:89 - Starting SUPPLIERS prep
+2025-04-04 11:57:56.675 | INFO     | __main__:main:90 - ========================
+2025-04-04 11:57:56.678 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/suppliers_data_prepared.csv
+2025-04-04 11:57:56.678 | INFO     | __main__:main:93 - ======================
+2025-04-04 11:57:56.678 | INFO     | __main__:main:94 - FINISHED data_prep.py
+2025-04-04 11:57:56.678 | INFO     | __main__:main:95 - ======================
+2025-04-04 12:08:51.053 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 12:08:51.053 | INFO     | __main__:main:59 - ======================
+2025-04-04 12:08:51.053 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 12:08:51.053 | INFO     | __main__:main:61 - ======================
+2025-04-04 12:08:51.053 | INFO     | __main__:main:63 - ========================
+2025-04-04 12:08:51.053 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 12:08:51.053 | INFO     | __main__:main:65 - ========================
+2025-04-04 12:08:51.067 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 12:08:51.067 | INFO     | __main__:main:68 - ========================
+2025-04-04 12:08:51.067 | INFO     | __main__:main:69 - Starting PRODUCTS prep
+2025-04-04 12:08:51.067 | INFO     | __main__:main:70 - ========================
+2025-04-04 12:08:51.072 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 12:08:51.072 | INFO     | __main__:main:73 - ========================
+2025-04-04 12:08:51.072 | INFO     | __main__:main:74 - Starting SALES prep
+2025-04-04 12:08:51.072 | INFO     | __main__:main:75 - ========================
+2025-04-04 12:08:51.079 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 12:08:51.079 | INFO     | __main__:main:78 - ========================
+2025-04-04 12:08:51.079 | INFO     | __main__:main:79 - Starting STORES prep
+2025-04-04 12:08:51.079 | INFO     | __main__:main:80 - ========================
+2025-04-04 12:08:51.082 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/stores_data_prepared.csv
+2025-04-04 12:08:51.082 | INFO     | __main__:main:83 - ========================
+2025-04-04 12:08:51.082 | INFO     | __main__:main:84 - Starting CAMPAIGNS prep
+2025-04-04 12:08:51.082 | INFO     | __main__:main:85 - ========================
+2025-04-04 12:08:51.085 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/campaigns_data_prepared.csv
+2025-04-04 12:08:51.085 | INFO     | __main__:main:88 - ========================
+2025-04-04 12:08:51.085 | INFO     | __main__:main:89 - Starting SUPPLIERS prep
+2025-04-04 12:08:51.085 | INFO     | __main__:main:90 - ========================
+2025-04-04 12:08:51.087 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/suppliers_data_prepared.csv
+2025-04-04 12:08:51.087 | INFO     | __main__:main:93 - ======================
+2025-04-04 12:08:51.087 | INFO     | __main__:main:94 - FINISHED data_prep.py
+2025-04-04 12:08:51.087 | INFO     | __main__:main:95 - ======================
+2025-04-04 12:09:26.283 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-04 12:09:26.283 | INFO     | __main__:main:59 - ======================
+2025-04-04 12:09:26.283 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-04-04 12:09:26.283 | INFO     | __main__:main:61 - ======================
+2025-04-04 12:09:26.283 | INFO     | __main__:main:63 - ========================
+2025-04-04 12:09:26.283 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-04-04 12:09:26.283 | INFO     | __main__:main:65 - ========================
+2025-04-04 12:09:26.290 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/customers_data_prepared.csv
+2025-04-04 12:09:26.290 | INFO     | __main__:main:68 - ========================
+2025-04-04 12:09:26.290 | INFO     | __main__:main:69 - Starting PRODUCTS prep
+2025-04-04 12:09:26.290 | INFO     | __main__:main:70 - ========================
+2025-04-04 12:09:26.294 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/products_data_prepared.csv
+2025-04-04 12:09:26.294 | INFO     | __main__:main:73 - ========================
+2025-04-04 12:09:26.294 | INFO     | __main__:main:74 - Starting SALES prep
+2025-04-04 12:09:26.294 | INFO     | __main__:main:75 - ========================
+2025-04-04 12:09:26.301 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/sales_data_prepared.csv
+2025-04-04 12:09:26.301 | INFO     | __main__:main:78 - ========================
+2025-04-04 12:09:26.301 | INFO     | __main__:main:79 - Starting STORES prep
+2025-04-04 12:09:26.301 | INFO     | __main__:main:80 - ========================
+2025-04-04 12:09:26.303 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/stores_data_prepared.csv
+2025-04-04 12:09:26.303 | INFO     | __main__:main:83 - ========================
+2025-04-04 12:09:26.304 | INFO     | __main__:main:84 - Starting CAMPAIGNS prep
+2025-04-04 12:09:26.304 | INFO     | __main__:main:85 - ========================
+2025-04-04 12:09:26.305 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/campaigns_data_prepared.csv
+2025-04-04 12:09:26.305 | INFO     | __main__:main:88 - ========================
+2025-04-04 12:09:26.305 | INFO     | __main__:main:89 - Starting SUPPLIERS prep
+2025-04-04 12:09:26.305 | INFO     | __main__:main:90 - ========================
+2025-04-04 12:09:26.308 | INFO     | data_prep:save_prepared_data:55 - Data saved to /Users/aaron/Documents/Git_Repos/GradSchool/44632/smart-store-gillespie/data/prepared/suppliers_data_prepared.csv
+2025-04-04 12:09:26.308 | INFO     | __main__:main:93 - ======================
+2025-04-04 12:09:26.308 | INFO     | __main__:main:94 - FINISHED data_prep.py
+2025-04-04 12:09:26.308 | INFO     | __main__:main:95 - ======================
