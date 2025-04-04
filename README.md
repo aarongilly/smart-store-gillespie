@@ -60,6 +60,21 @@ The schema is as follows:
 
 ![alt text](assets/SCHEMA_TABLE.png)
 
+### Design Choices
+I went into this with the very simple rule - tables should be in 3rd normal form. This means No table contains columns whose value depends on other **non-primary-key** columns. This resulted in the creation ofthe `suppliers` table, turning what would have been a star schema into a light snowflake schema.
+
+> [!warning] Challenges
+> Several of my choices early on lead to headaches later
+
+I added new tables that were not part of the minimum viable set. If I'd been satisfied with first normal form (which, for a data warehouse this size, is probably adequate), I could have saved myself a lot of headaches spinning up new tables. 
+
+Even still, the data warehouse doesn't make a _ton_ of sense. I should probably re-title "TransactionID" to "SaleID" to keep the table name matches surrogate primary key theme consistent. The "state" of the Transaction has nothing to do with the store location. I justified this in retrospect by saying "I guess these are online orders, and the customer lives elsewhere" - but that's a stretch. You wouldn't allow this type of weird dependency in a real-world setting. My choice of adding "state" to the SALES data was arbitrary at the time, but left the data warehouse feeling strange.
+
+> [!tldr] Lessons Learned
+> - Schema changes are **tedious**
+> - Keep it simple sometimes means accept some complexity
+
+## Data Contents
 The following sections display the first few rows & columns of each table.
 
 ### SALES
