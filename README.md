@@ -97,6 +97,12 @@ The following sections display the first few rows & columns of each table.
 
 # Spark & Juypter
 
-Spark is a fast, distributed processing engine for large-scale data analysis. We used it with a Jupyter Notebook and Python by first configuring a SparkSession with JDBC connection details to your data warehouse. We then used Spark's DataFrame API (via PySpark) within the notebook to query, transform, and analyze tables from the data warehouse, visualizing insights directly in the notebook. This allows interactive exploration of (hypothetically) massive datasets without loading everything into memory. The jupyter notebook `spark_juypter_gillespie.ipynb` shows the basics of this process working in practice.
+The jupyter notebook `spark_juypter_gillespie.ipynb` works with the generated data warehouse `smart_sales.db` post the `etl_to_dw.py` processing. Its purpose is to demonstrate Spark utilizing our tiny dataset. 
 
-We 
+Spark is a fast, distributed processing engine for large-scale data analysis. We used it with a Jupyter Notebook and Python by first configuring a SparkSession with JDBC connection details to your data warehouse. We then used Spark's DataFrame API (via PySpark) within the notebook to query, transform, and analyze tables from the data warehouse, visualizing insights directly in the notebook. This allows interactive exploration of (hypothetically) massive datasets without loading everything into memory.
+
+> [!fail] Getting Spark + JDBC to play nicely on my Mac environment was _TOUGH_
+
+The Juypter notebook is in a "touch it and it falls down" status. Trying to extend beyond the absolute basics of what was assigned caused something that took several hours to get right to break.
+
+The basic idea here is that Spark uses a JDBC connecction to interact with the tables in the Data Warehouse. It is capable of distributing this work horizontally across many machines. It creates a projection of the data which can then be rendered in a Pandas DataFrame for typical slicing & dicing. In this case, however, it was like bringing a shotgun to kill a fly. Technically you can do it, but it's way overpowered for the task at hand - and also much tougher.
