@@ -94,3 +94,9 @@ The following sections display the first few rows & columns of each table.
 
 ### SUPPLIERS
 ![alt text](assets/SUPPLIERS.png)
+
+# Spark & Juypter
+
+Spark is a fast, distributed processing engine for large-scale data analysis. We used it with a Jupyter Notebook and Python by first configuring a SparkSession with JDBC connection details to your data warehouse. We then used Spark's DataFrame API (via PySpark) within the notebook to query, transform, and analyze tables from the data warehouse, visualizing insights directly in the notebook. This allows interactive exploration of (hypothetically) massive datasets without loading everything into memory. The jupyter notebook `spark_juypter_gillespie.ipynb` shows the basics of this process working in practice.
+
+We 

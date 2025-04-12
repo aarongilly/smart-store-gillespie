@@ -52,3 +52,13 @@ matplotlib
 
 # Statistical data visualization library built on matplotlib (~2-5 MB)
 seaborn
+
+
+# ======================================================
+# STREAM PROCESSING - CAN BE VERY LARGE
+# ======================================================
+
+# Streaming data processing framework (~200-250 MB)
+# Currently requires Python <3.12, e.g. 3.11
+pyspark<4.0.0
+
