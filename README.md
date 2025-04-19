@@ -4,6 +4,9 @@
 - date: 2025-03-20
 - purpose: NW Missouri University CSIS 44-632 - BI & Analytics
 
+> [!note]
+> The **OLAP Assignment Content** is at the bottom of this README.
+
 # Setup
 
 ## Clone this repo to your machine
@@ -105,4 +108,102 @@ Spark is a fast, distributed processing engine for large-scale data analysis. We
 
 The Juypter notebook is in a "touch it and it falls down" status. Trying to extend beyond the absolute basics of what was assigned caused something that took several hours to get right to break.
 
-The basic idea here is that Spark uses a JDBC connecction to interact with the tables in the Data Warehouse. It is capable of distributing this work horizontally across many machines. It creates a projection of the data which can then be rendered in a Pandas DataFrame for typical slicing & dicing. In this case, however, it was like bringing a shotgun to kill a fly. Technically you can do it, but it's way overpowered for the task at hand - and also much tougher.
+The basic idea here is that Spark uses a JDBC connecction to interact with the tables in the Data Warehouse. It is capable of distributing this work horizontally across many machines. It creates a projection of the data which can then be rendered in a Pandas DataFrame for typical slicing & dicing. In this case, however, it was like bringing a shotgun to kill a fly. Technically you can do it, but it's way overpowered for the task at hand - and also much tougher than a more fit-for-purpose tool (e.g. a flyswatter). 
+
+# P6 - BI Insights and Storytelling - OLAP in Practice
+
+> [!note] This heading is for a self-contained assignment building off the previous work.
+> Everything below this callout is associated with NW Missouri State University CSIS 44632 assignment P6 - "BI Insights and Storytelling". The context above is still relevant, but this section stands somewhat on its own.
+
+Most data explorations in the real world are done with a **purpose**. There's some goal, some *insight* that's being targeted by the data analyst for the benefit of the customer. These goals range is scope, difficulty, and level of abstraction. 
+
+The role of the data analyist is to work from the base of the [Data-Information-Knowledge-Wisdom Pyramid](https://gillespedia.com/Data%2C+Information%2C+Knowledge%2C+Wisdom+Pyramid), synthesizing data into information, and presenting that information in a way that facilitates knowledge transfer.
+
+![alt text](assets/dikw.png)
+
+It's then up to leadership to have the wisdom to know what to do with it.
+
+## Section 1. The Business Goal
+
+The goals of business are typically pretty simple, in principle - how can we increase profits while reducing risk. In pursuit of these top-level abstract goals things splinter off and get increasingly complex. The business goal of a data analytics project is rarely aimed at **directly** increasing profits and reducing risk - rather it's aimed at some intermediate step assumed to be on the path toward these higher-level abstract goals.
+
+In the case of our hypothetical "Smart Sales" business - you could imagine the following 3 goals:
+
+1. **In which state(s) are most of our online sales take place?**  
+Our online customers are located throughout the United States. If we understood which states were contributing the highest volume of sales, we might recognize potential new markets for brick-and-mortar stores.  
+
+2. **Which stores are most dependent on supplier (X)?**  
+If a particular supplier were under contract negotiation, what stores may be most impacted by changing of terms in their supplier agreement?  
+
+3. **Which product's sales benefited most from campaign (X)?**  
+If we are paying for advertising for a category of products (e.g. health), we'd like to understand which specific products saw a sales bump as a result of the advertising campaign?  
+
+These are the goals I'll use for this analysis as a proxy for what might exist in a real-world setting. Each goal will list considerations for the analysis to-be done. 
+
+## Section 2. Data Source
+
+To answer these questions I will utilize the previously-prepared Data Warehouse (located in this repo at `data/dw/smart_sales.db`). I will NOT be pre-computing anything, nor will we be utilizing Spark or any other tools aimed at tackling big data-type datasets. Our data simply aren't big enough to warrant such tooling. We will, however, be utilizing the **prepared data**, rather than the raw dataset found in the `data/raw` directory. 
+
+Columns used:
+
+| Table | Column |
+| ----- | ------ |
+| sales | StoreID|
+| sales | CampaignID |
+| sales | SaleAmount | 
+| sales | SaleDate |
+| sales | StateCode |
+| sales | ProductID |
+| products | Supplier |
+| products | ProductName |
+| suppliers | Supplier Name |
+| stores | StoreName |
+| campaigns | CampaignName |
+
+## Section 3. Tools
+
+For this work I'll be using a Jupyter Notebook with Python and some key data analysis libraries including Pandas, Seaborn, Matlibplot, and Sqlite. This choice of tooling partly reflects the nature of the challenge to be solved, and partly the environment in which I'm solving them. I am working from my personal Mac Mini, which has no pre-installed tools like PowerBI or Tableau - however no such tooling is required for this analysis. The aformentioned toolset will suffice. At this point I'm quite comfortable working with these tools.
+
+## Section 4. Workflow & Logic
+
+Approaching these on a question-by-question basis:
+
+### 1. **In which state(s) are most of our online sales take place?**  
+
+Here we'll simply look at the state associated with the sales. We'll also consider the date the sale took place in case sales in a given state were high in times past, but have dropped off in recent years. 
+
+*Potential Action:* Establish new frachise locations in state
+
+- Descriptive dimensions: state, year, month
+- Numeric metric: total sales amount
+- Aggregations: sum and average
+- Slicing: by state
+- Dicing: by year
+- Drilldown: from year to month
+
+### 2. **Which stores are most dependent on supplier (X)?**  
+
+Here we'll join in the Suppliers into the Sales table. In order to make that join, we must also join in the intermediary table `products` which makes the breadcrumb trail possible. 
+ 
+*Potential Action:* diversify store inventory in support of upcoming supplier negotiations to lower dependency on a given supplier
+
+- Descriptive dimensions: store, supplier, year, month
+- Numeric metric: total sales amount
+- Aggregations: sum
+- Slicing: by supplier
+- Dicing: by store and year
+- Drilldown: from year to month
+
+### 3. **Which product's sales benefited most from campaign (X)?**  
+
+*Potential Action:* understand advertising response for a particular product to inform future ad spend
+
+- Descriptive dimensions: store, supplier, year, month
+- Numeric metric: total sales amount
+- Aggregations: sum and average
+- Slicing: by supplier
+- Dicing: by store and year
+- Drilldown: from year to month
+
+## Results
+

@@ -39,7 +39,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             FOREIGN KEY (Supplier) REFERENCES suppliers (SupplierID)
         )
     """)
-    
+     
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS sales (
             TransactionID INTEGER PRIMARY KEY,
