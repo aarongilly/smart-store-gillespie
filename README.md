@@ -176,10 +176,11 @@ Here we'll simply look at the state associated with the sales. We'll also consid
 
 - Descriptive dimensions: state, year, month
 - Numeric metric: total sales amount
-- Aggregations: sum and average
+- Aggregations: sum
 - Slicing: by state
 - Dicing: by year
-- Drilldown: from year to month
+
+Given the volume of data I'm working with, drilling down to the level of *months* isn't going to produce 
 
 ### 2. **Which stores are most dependent on supplier (X)?**  
 
@@ -194,16 +195,53 @@ Here we'll join in the Suppliers into the Sales table. In order to make that joi
 - Dicing: by store and year
 - Drilldown: from year to month
 
-### 3. **Which product's sales benefited most from campaign (X)?**  
+### 3. **Which products' sales benefited most from campaign (X)?**  
 
 *Potential Action:* understand advertising response for a particular product to inform future ad spend
 
 - Descriptive dimensions: store, supplier, year, month
 - Numeric metric: total sales amount
-- Aggregations: sum and average
+- Aggregations: sum
 - Slicing: by supplier
 - Dicing: by store and year
 - Drilldown: from year to month
 
 ## Results
 
+> [!tip] Charts for these results are included in the Jupyter Notebook. 
+
+### 1. **In which state(s) are most of our online sales take place?**  
+
+Considering every sale in the dataset, the higest revenue states were:
+
+1. Minnesota
+2. North Carolina
+3. Louisiana
+4. Maryland
+5. New Mexico
+
+Considering only those states which have trended higher in the most recent year (i.e. since July 2024), the results are slightly different:
+
+1. North Carolina
+2. Maryland
+3. Deleware
+4. Pennsylvania
+5. West Virginia
+
+Taking this into account - the online sales are strongest in North Carolina and Maryland both overall and when considering only recent sales. If you were looking to place brick and mortar stores in new states, you might start considering sub-dividing the markets within these states to look for a favorable real-estate in cities in those two states. 
+
+### 2. **Which Stores are most depend on supplier (X)?**
+
+While this was the original question that was asked, the results indicate another factor that cannot be ignored - the supplier named **Dull** makes up the absolute bulk of the sales, almost regardless of which store you consider. If the original business need was to inform coming contract negotiations, you'd immediately need to start preparations for any negotiation including the supplier named **Dull**. Any other supplier is on the chopping block compared to them. 
+
+That said, the original ask was to look at **stores** that depend on any given supplier. While every store depends on **Dull**, there is a store that depends in a disproportionate way (compared to other stores) on a given supplier - the store in Plano, TX is selling more product sourced from **Carhurt** than the other stores. Thus, if negotiations are going poorly with the vendor for off-brand coats, you may need to bolster other product lines in Plano, TX to make up for those **Carhurt Coats** with some genuine brand *Carharts* sourced from the real deal.
+
+Honestly if this were a real-world dataset I'd start suggesting we consider the 80/20 analysis of the overhead we spend working with suppliers *other than* Dull. If we could remove all that overhead and still maintain 90% of our sales, that could very well be a worthwhile trade-off (recognizing this also assumes the risk of being bound to the success of this one supplier). 
+
+### 3. **Which products' sales benefitted most from campaign (X)?**
+
+This is another case of one question going in, but an overwhelming and unexpected result coming out. The sales from **every** campaign were dominated by *laptop* revenue. Given more time for analysis, I'd try to normalize the sales to present a view based on units sold while running one campaign compared to units sold **not** running that campaign. This could isolate the effect of the campaign itself, and compare the sales to the *base rate**. This would make Daniel Kahneman happier, for sure. This is also another case of considering alternative conclusions from the quesiton that was asked. An ethical data analyst would be obliged to ensure that leadership both received the answer to the question that was asked any any other insight that could benefit the company and the stockholders (this assumes rising company value = good ethics, which is an assumption that's always worth more scruitiny than I'll give it here). 
+
+Now, again, the original ask was to do with what products benefited from any given campaign. The one campaign that sicks out in terms of changing the ratio of revenue was `Flyer A`, the bottom-most pie chart. This campaign resulted in a disproportionately high jackets & hats, seemingly. Again given more time I'd check to see whether this is true, or if the campaign actually resulted in a disproportionately *lower* volume of sales of laptops, our cash cow. 
+
+If we had a particularly high profit margin on our apparel, `Flyer A` seems like a promising bit of advertising spend for the future. 

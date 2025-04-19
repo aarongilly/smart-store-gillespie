@@ -53,6 +53,9 @@ matplotlib
 # Statistical data visualization library built on matplotlib (~2-5 MB)
 seaborn
 
+# Treemaps
+squarify
+
 
 # ======================================================
 # STREAM PROCESSING - CAN BE VERY LARGE
